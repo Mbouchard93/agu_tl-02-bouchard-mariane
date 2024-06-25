@@ -9,8 +9,8 @@ export default {
       'marker': ['Permanent Marker', 'cursive'],
       'raleway': ['Raleway', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
-

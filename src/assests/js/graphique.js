@@ -1,4 +1,6 @@
-horseshoe = new RGraph.SVG.Horseshoe({
+window.addEventListener('load', ()=> {
+
+  horseshoe = new RGraph.SVG.Horseshoe({
     id: "skate",
     min: 0,
     max: 100,
@@ -11,3 +13,5 @@ horseshoe = new RGraph.SVG.Horseshoe({
       marginBottom: 0,
     },
   }).grow();
+})
+
